@@ -3,6 +3,9 @@ const path = require("path");
 const app = express();
 const port = 5959;
 
+// Middleware to serve static files
+app.use(express.static(path.join(__dirname)));
+
 const products = [
   { id: 1, name: 'Laptop', category: 'electronics', price: 1000 },
   { id: 2, name: 'Shirt', category: 'clothing', price: 50 },

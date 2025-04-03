@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    gap: 4rem;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-container {
+    width: 20rem;
+    height: 18rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 151, 224);
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(25, 151, 224, 0.5);
+}
+#search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+label {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+button {
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background-color: rgb(14, 14, 14);
+    border-radius: 3px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    cursor: pointer;
+    transition-duration: 150ms;
+    margin-top: 15px;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
+}
+select {
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    border: none;
+}
+.result-containter {
+    width: 40rem;
+    height: 20rem;
+    border-radius: 5px;
+    padding: 3rem;
+    background-color: rgb(25, 151, 224);
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
